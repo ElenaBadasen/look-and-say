@@ -1,5 +1,5 @@
 class Integer
-	def look_and_say
+	def look_and_say 
 		raise 'Negative input not allowed!' if self < 0
 		look_and_say_sequence = Enumerator.new do |yielder| 
             number = self
